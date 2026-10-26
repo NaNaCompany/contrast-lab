@@ -1,0 +1,59 @@
+{
+  "slug": "contrast-lab",
+  "url": "https://nanalab.kr/contrast-lab/",
+  "languages": [
+    "ko",
+    "en",
+    "es",
+    "zh",
+    "ja",
+    "de"
+  ],
+  "locales": {
+    "ko": {
+      "name": "색상 대비 실험실",
+      "description": "전경·배경·투명도를 반영한 색상 대비를 계산하고 WCAG 텍스트 기준과 색상 조정 후보를 확인하세요.",
+      "image_alt": "색상 대비 실험실"
+    },
+    "en": {
+      "name": "Color Contrast Lab",
+      "description": "Calculate color contrast with foreground, background and transparency, then review WCAG text thresholds and color adjustment candidates.",
+      "image_alt": "Color Contrast Lab"
+    },
+    "es": {
+      "name": "Laboratorio de contraste",
+      "description": "Calcula el contraste con colores de primer plano, fondo y transparencia y consulta umbrales de texto WCAG y alternativas de color.",
+      "image_alt": "Laboratorio de contraste"
+    },
+    "zh": {
+      "name": "色彩对比度实验室",
+      "description": "结合前景、背景与透明度计算色彩对比度，查看 WCAG 文本阈值及颜色调整候选。",
+      "image_alt": "色彩对比度实验室"
+    },
+    "ja": {
+      "name": "色のコントラスト実験室",
+      "description": "前景・背景・透明度を反映した色のコントラストを計算し、WCAGの文字基準と色の調整候補を確認できます。",
+      "image_alt": "色のコントラスト実験室"
+    },
+    "de": {
+      "name": "Farbkontrast-Labor",
+      "description": "Berechnen Sie Farbkontrast mit Vordergrund, Hintergrund und Transparenz und prüfen Sie WCAG-Textgrenzwerte und Farbvorschläge.",
+      "image_alt": "Farbkontrast-Labor"
+    },
+    "fr": {
+      "name": "Laboratoire de contraste",
+      "description": "Calculez le contraste avec les couleurs de premier plan, de fond et leur transparence, puis consultez les seuils de texte WCAG et les couleurs proposées.",
+      "image_alt": "Laboratoire de contraste"
+    },
+    "pt": {
+      "name": "Laboratório de contraste",
+      "description": "Calcule o contraste considerando primeiro plano, fundo e transparência e confira limites de texto WCAG e opções de ajuste de cor.",
+      "image_alt": "Laboratório de contraste"
+    },
+    "ru": {
+      "name": "Лаборатория цветового контраста",
+      "description": "Рассчитывайте контраст с учётом переднего плана, фона и прозрачности, проверяйте пороги WCAG для текста и варианты изменения цвета.",
+      "image_alt": "Лаборатория цветового контраста"
+    }
+  }
+}

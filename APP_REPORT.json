@@ -1,0 +1,14 @@
+{
+  "ideaId": "W028",
+  "slug": "contrast-lab",
+  "title": "색상 접근성 점검",
+  "ready": true,
+  "summary": "Local WCAG 2.2 contrast workbench with explicit foreground/background/canvas alpha composition, exact threshold decisions and opaque color adjustment suggestions.",
+  "features": ["HEX/RGBA input and color pickers", "Explicit opaque composition canvas", "AA/AAA normal/large text and non-text numeric ratio results", "Live preview", "3/4.5/7 target color adjustment candidates", "Original and composited CSS palette export", "Complete six-language UI, errors, results and help"],
+  "languages": ["ko", "en", "es", "zh", "ja", "de"],
+  "languageRoutes": {"ko":"/", "en":"/en/", "es":"/es/", "zh":"/zh/", "ja":"/ja/", "de":"/de/"},
+  "tests": [{"name":"Independent WCAG numeric/alpha/threshold fixtures: PASS 59 checks", "pass":true}, {"name":"Node syntax checks: core/app/locales/generator/tests all exit 0", "pass":true}, {"name":"Six generated locale routes and complete catalog keys", "pass":true}],
+  "limitations": ["Browser/visual QA delegated to owner; not performed by this agent", "Solid sRGB combinations only; no gradients, images, color-vision simulation, or whole-page WCAG certification", "Non-text output is the numeric ratio only; component exceptions and adjacency need separate review", "Suggestions replace alpha with an opaque HEX color and do not guarantee minimum perceptual color difference", "Clipboard availability depends on browser permissions and secure context"],
+  "sources": ["https://www.w3.org/TR/WCAG22/#dfn-relative-luminance", "https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/TR/WCAG22/#contrast-enhanced", "https://www.w3.org/TR/WCAG22/#non-text-contrast", "https://www.w3.org/TR/css-color-4/#simple-alpha"],
+  "entry": "dist/index.html"
+}
